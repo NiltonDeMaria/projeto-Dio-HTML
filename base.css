@@ -26,10 +26,37 @@ body {
     min-height: 150px;
 }
 .content {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     min-height: 300px;
     padding: 20px;
 }
+
+table {
+    border: solid 1px rgb(124, 123, 123);
+}
+
+table thead th {
+    background-color: rgb(255, 238, 0);
+}
+
+table td, th {
+    padding: 5px;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: rgb(236, 241, 137);
+}
+
+label, input {
+    margin: 5px;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+}
+
 .footer {
     min-height: 150px;
 }
+
